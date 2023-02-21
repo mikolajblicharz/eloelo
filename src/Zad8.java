@@ -1,14 +1,16 @@
 import java.util.Scanner;
 
-public class Zad6 {
+public class Zad8 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Podaj liczbę sekund:");
+        int cenaDt = 99;
+
+        System.out.println("Podaj liczbę sztuk:");
         int sekundy = scanner.nextInt();
 
         int dni = sekundy / 86400;
-         int minuty = sekundy / 60;
+        int minuty = sekundy / 60;
 
 
         if (sekundy > 86400 ) {

@@ -1,17 +1,19 @@
 import java.util.Scanner;
 
-public class Zad6 {
+public class Zad7 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Podaj liczbę sekund:");
-        int sekundy = scanner.nextInt();
+        System.out.println("Podaj imię:");
+        string imieJeden = scanner.next();
 
-        int dni = sekundy / 86400;
-         int minuty = sekundy / 60;
+        System.out.println("Podaj drugie imię:");
+        string imieDwa = scanner.next();
 
+        System.out.println("Podaj trzecie imię:");
+        string imieTrzy = scanner.next();
 
-        if (sekundy > 86400 ) {
+        if (imieJeden.compareToIgnoreCase(imieDwa) < ) {
             System.out.println(sekundy + " sekund to " + dni + " dni/ " + minuty + "minut/" + sekundy + "sekund/");
         }
         else if (sekundy > 60 && sekundy < 86400) {
